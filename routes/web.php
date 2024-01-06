@@ -25,8 +25,16 @@ Route::get('/pro', function () {
     return view('pro');
 });
 
-Route::get('/pro-wed', function () {
+Route::get('/mid-wed', function () {
+    return view('middleWedding');
+});
+
+Route::get('/pro-wed2', function () {
     return view('proWedding');
+});
+
+Route::get('/pro-wed1', function () {
+    return view('proWedding1');
 });
 
 
