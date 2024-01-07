@@ -103,7 +103,7 @@
 
     <!-- First Card -->
     <div class="person-container">
-        <img src="/canvareq/images/nael.jpg" alt="Person Image" class="person-image">
+        <img src="/canvareq/images/4.png" alt="Person Image" class="person-image">
         <div>
             <h2>Gabriel Raymond Alfonsus N. Y.</h2> <!-- Groom's name -->
             <p>Second Grandson of Y. Family</p> <!-- Detail under the name -->
@@ -116,7 +116,7 @@
             <h2>Michelle Clewdyn Hartono</h2> <!-- Bride's name -->
             <p>Second Daughter of Hartono Family</p> <!-- Detail under the name -->
         </div>
-        <img src="/canvareq/images/clew.jpg" alt="Second Person Image" class="person-image">
+        <img src="/canvareq/images/5.png" alt="Second Person Image" class="person-image">
     </div>
 </section>
 
@@ -189,13 +189,12 @@
 
 <section class="started_section layout_padding-bottom mt-3">
     <div class="container">
-        <div style="padding-bottom: 60pt"></div>
-        <div class="row">
-            <div class="col-md-7">
+{{--        <div class="content-wrapper">--}}
+            <div class="started_content">
                 <div class="detail-box">
                     <div class="heading_container">
                         <h2>
-                            R<span>S</span>V<span>P</span>
+                            RSVP
                         </h2>
                         <p>
                             Bapak/ Ibu/ Saudara/i mohon RSVP dengan menekan tombol ini dan mengirimkannya sebelum 1
@@ -204,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 offset-md-1">
+            <div class="started_content">
                 <div class="slider_section">
                     <div class="detail-box">
                         <a href="">
@@ -213,9 +212,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+{{--        </div>--}}
     </div>
 </section>
+
 
 <!-- end started section -->
 
