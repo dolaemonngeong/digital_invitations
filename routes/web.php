@@ -41,4 +41,10 @@ Route::get('/pro-wed1', function () {
     return view('proWedding1');
 });
 
+Route::get('/canvareq', function () {
+    return view('canvareq');
+});
 
+Route::get('/canva', function () {
+    return view('canva');
+});
