@@ -143,7 +143,7 @@
                                             <p>Pemberkatan</p>
                                             <p>10 A.M.</p>
                                             <p>Gereja Katolik Santo Yakobus</p>
-                                            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:400px;">
+                                            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:600px;height:300px;">
                                                 <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
                                                     <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Gereja+Katolik+Santo+Yakobus,+Jalan+Puri+Widya+Kencana,+Lidah+Kulon,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                                                 </div>
@@ -176,7 +176,7 @@
                                             <p>Resepsi</p>
                                             <p>10 A.M.</p>
                                             <p>Westin Surabaya</p>
-                                            <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:400px;">
+                                            <div style="max-width:100%;overflow:hidden;color:red;width:600px;height:300px;">
                                                 <div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;">
                                                 <iframe style="height:100%;width:100%;border:2;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=The+Westin+Surabaya,+Jl.+Raya+Lontar,+Puncak+Indah,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                                                 </div><a class="google-map-code-enabler" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
