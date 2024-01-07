@@ -142,12 +142,24 @@
                                             <br>
                                             <p>Pemberkatan</p>
                                             <p>10 A.M.</p>
-                                            <p>Gereja Islam Santo Yakobus</p>
-                                            <iframe
-                                                src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Eiffel+Tower+Paris+France"
-                                                width="600" height="300" frameborder="0"
-                                                style="border:0; width: 100%; height:100%"
-                                                allowfullscreen></iframe>
+                                            <p>Gereja Katolik Santo Yakobus</p>
+                                            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:400px;">
+                                                <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
+                                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Gereja+Katolik+Santo+Yakobus,+Jalan+Puri+Widya+Kencana,+Lidah+Kulon,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                                </div>
+                                                <a class="code-for-google-map" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authmaps-data">
+                                                    premium bootstrap themes
+                                                </a>
+                                                <style>
+                                                    #embedded-map-display img {
+                                                        max-width: none !important;
+                                                        background: none !important;
+                                                        font-size: inherit;
+                                                        font-weight: inherit;
+                                                    }
+
+                                                </style>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -161,14 +173,23 @@
                                     <div class="event-map_container">
                                         <div class="event-map-responsive">
                                             <br>
-                                            <p>Pemberkatan</p>
+                                            <p>Resepsi</p>
                                             <p>10 A.M.</p>
-                                            <p>Gereja Islam Santo Yakobus</p>
-                                            <iframe
-                                                src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Eiffel+Tower+Paris+France"
-                                                width="600" height="300" frameborder="0"
-                                                style="border:0; width: 100%; height:100%"
-                                                allowfullscreen></iframe>
+                                            <p>Westin Surabaya</p>
+                                            <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:400px;">
+                                                <div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;">
+                                                <iframe style="height:100%;width:100%;border:2;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=The+Westin+Surabaya,+Jl.+Raya+Lontar,+Puncak+Indah,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                                </div><a class="google-map-code-enabler" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
+                                                <style>
+                                                    #g-mapdisplay img {
+                                                        max-height: none;
+                                                        max-width: none !important;
+                                                        background: none !important;
+                                                    }
+
+                                                </style>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
