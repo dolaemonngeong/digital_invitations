@@ -227,10 +227,27 @@
             <div class="started_content">
                 <div class="slider_section">
                     <div class="detail-box">
-                        <a href="">
+                        <a href="#myModal">
                             RSVP
                         </a>
                     </div>
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <form id="rsvpForm" action="\../php/main.php" method="post">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="Nama" name="Nama" required>
+                        <br>
+                        <label for="response">Will you be attending?</label>
+                        <select id="Kedatangan" name="Kedatangan" required>
+                            <option value="yes">Yes, I'd like to come</option>
+                            <option value="no">Sorry, I can't</option>
+                        </select>
+                        <br>
+                        <button type="submit">Submit RSVP</button>
+                    </form>
                 </div>
             </div>
 {{--        </div>--}}
