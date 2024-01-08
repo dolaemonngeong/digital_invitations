@@ -178,7 +178,7 @@
                                             <p>Westin Surabaya</p>
                                             <div style="max-width:100%;overflow:hidden;color:red;width:600px;height:300px;">
                                                 <div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;">
-                                                <iframe style="height:100%;width:100%;border:2;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=The+Westin+Surabaya,+Jl.+Raya+Lontar,+Puncak+Indah,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                                <iframe style="height:100%;width:100%;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=The+Westin+Surabaya,+Jl.+Raya+Lontar,+Puncak+Indah,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                                                 </div><a class="google-map-code-enabler" href="https://www.bootstrapskins.com/themes" id="authorize-maps-data">premium bootstrap themes</a>
                                                 <style>
                                                     #g-mapdisplay img {
@@ -210,47 +210,45 @@
 
 <section class="started_section layout_padding-bottom mt-3">
     <div class="container">
-{{--        <div class="content-wrapper">--}}
-            <div class="started_content">
+        <div class="started_content">
+            <div class="detail-box">
+                <div class="heading_container">
+                    <h2>
+                        RSVP
+                    </h2>
+                    <p>
+                        Bapak/ Ibu/ Saudara/i mohon RSVP dengan menekan tombol ini dan mengirimkannya sebelum 1
+                        April 2024
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="started_content">
+            <div class="slider_section">
                 <div class="detail-box">
-                    <div class="heading_container">
-                        <h2>
-                            RSVP
-                        </h2>
-                        <p>
-                            Bapak/ Ibu/ Saudara/i mohon RSVP dengan menekan tombol ini dan mengirimkannya sebelum 1
-                            April 2024
-                        </p>
-                    </div>
+                    <a href="#myModal" class="openModalBtn">
+                        RSVP
+                    </a>
                 </div>
             </div>
-            <div class="started_content">
-                <div class="slider_section">
-                    <div class="detail-box">
-                        <a href="#myModal">
-                            RSVP
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span class="close" id="closeModalBtn">&times;</span>
-                    <form id="rsvpForm" action="\../php/main.php" method="post">
-                        <label for="name">Your Name:</label>
-                        <input type="text" id="Nama" name="Nama" required>
+            <div id="myModal" class="rsvp-modal">
+                <div class="rsvp-modal-content">
+                    <span class="rsvp-close" id="closeModalBtn">&times;</span>
+                    <form class="rsvp-form" action="\../php/main.php" method="post">
+                        <label for="name" class="rsvp-label">Your Name:</label>
+                        <input type="text" id="Nama" name="Nama" class="rsvp-input" required>
                         <br>
-                        <label for="response">Will you be attending?</label>
-                        <select id="Kedatangan" name="Kedatangan" required>
+                        <label for="response" class="rsvp-label">Will you be attending?</label>
+                        <select id="Kedatangan" name="Kedatangan" class="rsvp-select" required>
                             <option value="yes">Yes, I'd like to come</option>
                             <option value="no">Sorry, I can't</option>
                         </select>
                         <br>
-                        <button type="submit">Submit RSVP</button>
+                        <button type="submit" class="rsvp-button">Submit RSVP</button>
                     </form>
                 </div>
             </div>
-{{--        </div>--}}
+        </div>
     </div>
 </section>
 

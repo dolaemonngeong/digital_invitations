@@ -7,7 +7,7 @@ function getYear() {
 
 getYear();
 
-// owl carousel 
+// owl carousel
 
 $('.owl-carousel').owlCarousel({
     loop: true,
@@ -79,3 +79,27 @@ window.addEventListener('resize', () => {
 
 // Initialize indicators
 updateIndicators();
+
+
+
+// Modal Box
+
+document.addEventListener("DOMContentLoaded", function () {
+    const openModalBtn = document.querySelector(".openModalBtn");
+    const closeModalBtn = document.getElementById("closeModalBtn");
+    const modal = document.getElementById("myModal");
+
+    openModalBtn.addEventListener("click", function () {
+        modal.style.display = "block";
+    });
+
+    closeModalBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
